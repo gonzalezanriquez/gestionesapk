@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="hintresgistro">#F07C99</color>
+    <color name="texthint">#424242</color>
+
+    <color name="btnInicio">#FF9700</color>
+
+    <color name="rosa">#F181A5</color>
+    <color name="magenta">#F183A9</color>
+    <color name="gris">#555555</color>
+
+</resources>

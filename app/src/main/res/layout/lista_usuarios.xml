@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listaUsuarios"
+            android:layout_width="match_parent"
+            android:layout_height="405dp"
+            android:layout_weight=".9"
+            android:background="@color/white"
+            tools:ignore="InefficientWeight" />
+
+        <ImageButton
+            android:id="@+id/btnvolver"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/btnvolver"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:contentDescription="@string/boton_volver" />
+
+    </LinearLayout>
+
+</LinearLayout>

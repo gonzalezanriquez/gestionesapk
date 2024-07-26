@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crudusuarios.edtuserActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="354dp"
+        android:layout_height="459dp"
+        android:layout_marginTop="178dp"
+        android:layout_marginBottom="128dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/camposincompletos"
+        app:layout_constraintStart_toStartOf="@+id/camposincompletos"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/itulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/cascadiafont"
+            android:text="@string/btnedityuser"
+            android:textAlignment="center"
+            android:textColor="@color/rosa"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:backgroundTint="@color/rosa"
+            android:fontFamily="@font/cascadiafont"
+            android:hint="@string/idconsulta"
+            android:inputType="textLongMessage"
+            android:minHeight="48dp"
+            android:textColor="@color/gris"
+            android:textColorHint="@color/rosa" />
+
+        <EditText
+            android:id="@+id/editTextNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:backgroundTint="@color/rosa"
+            android:fontFamily="@font/cascadiafont"
+            android:hint="@string/nombreregistro"
+            android:inputType="textLongMessage"
+            android:minHeight="48dp"
+            android:textColor="@color/gris"
+            android:textColorHint="@color/rosa"
+            tools:ignore="VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/editTextApellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/rosa"
+            android:fontFamily="@font/cascadiafont"
+            android:hint="@string/apellidoregistro"
+            android:importantForAutofill="no"
+            android:inputType="textLongMessage"
+            android:minHeight="48dp"
+            android:textColor="@color/gris"
+            android:textColorHint="@color/rosa"
+            tools:ignore="VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/editTextMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/rosa"
+            android:fontFamily="@font/cascadiafont"
+            android:hint="@string/mailregistro"
+            android:importantForAutofill="no"
+            android:inputType="textLongMessage"
+            android:minHeight="48dp"
+            android:textColor="@color/gris"
+            android:textColorHint="@color/rosa"
+            tools:ignore="VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/editTextContrasenia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/rosa"
+            android:fontFamily="@font/cascadiafont"
+            android:hint="@string/contraseniaregistro"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColor="@color/gris"
+            android:textColorHint="@color/rosa"
+            tools:ignore="VisualLintTextFieldSize" />
+
+        <Button
+            android:id="@+id/btneditar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="15dp"
+
+            android:backgroundTint="@color/rosa"
+            android:text="@string/btedit"
+            android:textColor="@color/black"
+            android:textColorHighlight="#03A9F4"
+            android:textColorLink="#03A9F4"
+            android:textSize="15sp"
+            app:cornerRadius="10dp"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/btnconsultar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:backgroundTint="@color/btnInicio"
+            android:text="@string/btnconsultar"
+            android:textColor="@color/black"
+            android:textColorHighlight="#03A9F4"
+            android:textColorLink="@color/white"
+            android:textSize="15sp"
+            app:cornerRadius="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/resgistrobajada"
+            app:layout_constraintVertical_bias="1.0"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/btneliminar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="140dp"
+            android:backgroundTint="#EF4343"
+            android:text="ELIMINAR"
+            android:textColor="@color/black"
+            android:textColorHighlight="#03A9F4"
+            android:textColorLink="@color/white"
+            android:textSize="15sp"
+            app:cornerRadius="10dp" />
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnvolver"
+        android:layout_width="409dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="49dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/btnvolver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginBottom="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/camposincompletos"
+        app:layout_constraintEnd_toStartOf="@+id/camposincompletos"
+        app:layout_constraintStart_toStartOf="@+id/camposincompletos"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/camposincompletos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="465dp"
+        android:fontFamily="@font/cascadiafont"
+        android:text=""
+        android:textColor="@color/btnInicio"
+        app:layout_constraintBottom_toTopOf="@+id/btnvolver"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

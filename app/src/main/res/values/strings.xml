@@ -1,0 +1,74 @@
+<resources>
+
+    <string name="app_name">GESTIONES EDUCATIVAS</string>
+    <string name="splash">codificandoideas</string>
+    <string name="logo">logoGestiones</string>
+
+
+    <!--TEXTOS DE INICIO-->
+    <string name="bajadainicio">Tu escuela en un solo lugar</string>
+    <string name="bajadainicio2">Gestiona simple</string>
+    <string name="btninicioingresar">INICIAR SESION</string>
+    <string name="btninicioregistrarse">REGISTRATE</string>
+
+    <!--TEXTOS DE ADVERTENCIAS-->
+    <string name="advertenciatxt">La aplicación "Gestiones Educativas" está diseñada exclusivamente para la administración de datos escolares y el manejo de información relacionada con el establecimiento educativo. El uso de esta aplicación está restringido al personal autorizado y a los administradores del establecimiento, y toda la información procesada es sensible y debe ser manejada con el máximo cuidado y responsabilidad.
+
+    Es esencial que los usuarios de la aplicación respeten las políticas de privacidad y las normativas de protección de datos vigentes. Cualquier uso inadecuado o negligente de los datos podría resultar en acciones legales y sanciones de acuerdo con las políticas del establecimiento y la legislación aplicable.
+
+    Se recomienda a los usuarios implementar medidas de seguridad adecuadas para proteger la información, incluyendo el uso de contraseñas seguras, el mantenimiento de dispositivos protegidos y la capacitación en el manejo responsable de datos. La protección y el manejo correcto de los datos es fundamental para garantizar la integridad y la seguridad de la información escolar.</string>
+    <string name="btnsoymayor">OK</string>
+    <string name="btnsoymenor">CANCELAR</string>
+    <string name="tituloadvertencia">ADVERTENCIAS DE USO</string>
+
+    <!--TEXTOS DE RESGISTRO-->
+    <string name="bajadaregistro">Registrate</string>
+    <string name="nombreregistro">Ingresá tu Nombre</string>
+    <string name="apellidoregistro">Ingresá tu Apellido</string>
+    <string name="mailregistro">Ingresá tu Mail</string>
+    <string name="contraseniaregistro">Ingresá tu Contraseña</string>
+    <string name="btnresgistroregistro">REGISTRARSE</string>
+    <string name="btncancelarregistro">CANCELAR</string>
+    <string name="camposincompletos">¡Completar todos los campos!</string>
+    <string name="yaregistrado">¡El mail ya esta registrado!</string>
+
+    <!--TEXTOS DE LOGIN-->
+    <string name="logintitulo">Iniciá Sesión</string>
+    <string name="btnlogininciar">INGRESA</string>
+    <string name="btnlogiregistrarse">Tenes que resgistrarte</string>
+    <string name="nombrelogin">Ingresá tu Mail</string>
+    <string name="contrasenialogin">Ingresá tu Contraseña</string>
+    <string name="mailincompleto">El mail es obligatorio. La Ai no es magica!</string>
+    <string name="mailnoencontrado">El mail no se encuentra Registrado</string>
+    <string name="contraseniaincompleta">La Contraseña es obligatoria</string>
+    <string name="contrasenianoencontrada">Contraseña Incorrecta.!</string>
+    <string name="datosincorrectos">Mail o Contraseña Incorrecta.!.</string>
+    <string name="usuarionoencontrado">Usuario no encontrado!</string>
+    <string name="ingresadatos">Completar todos los campos.</string>
+    <!--TEXTOS DE CRUD-->
+    <string name="titulocrud">EDITAR,MODIFICAR,ELIMINAR USUARIOS</string>
+    <string name="titlecrudproduct">EDITAR,MODIFICAR,ELIMINAR PRODCUTOS</string>
+    <string name="btnadduser">AGREGAR USUARIOS</string>
+    <string name="btnedityuser">MODIFICAR USUARIOS</string>
+    <string name="btndeleteuser">ELIMINAR USUARIOS</string>
+    <string name="btnuserlist">LISTA DE USUARIOS</string>
+    <string name="btnaddproduct">AGREGAR PRODUCTOS</string>
+    <string name="btneditporduct">EDITAR PRODUCTOS</string>
+    <string name="btndeleteproduct">ELIMINAR PRODUCTOS</string>
+    <string name="btnproductlist">LISTA DE PRODUCTOS</string>
+    <string name="btnadd">AGREGAR</string>
+    <string name="btedit">EDITAR</string>
+    <string name="btdelete">ELIMINAR</string>
+    <string name="btnconsultar">CONSULTAR</string>
+    <string name="idconsulta">Ingresa tu id de consulta</string>
+    <string name="precio_del_producto">Precio del producto</string>
+    <string name="descripci_n_del_producto">Descripción del producto</string>
+    <string name="id_del_usuario">ID del personas</string>
+    <string name="agregar_producto">Agregar Producto</string>
+    <string name="imglogo">imgLogo</string>
+    <string name="ingrese_direccion">Ingrese Direccion</string>
+    <string name="name"></string>
+    <string name="boton_volver">boton volver</string>
+    <string name="ver_en_googlemaps">VER EN GOOGLEMAPS</string>
+
+</resources>

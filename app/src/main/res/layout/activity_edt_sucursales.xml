@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crudproductos.addproductoActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="315dp"
+        android:layout_height="223dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="257dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <EditText
+            android:id="@+id/editIdSucursal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="Ingresar id de Sucursal"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:fontFamily="@font/cascadiafont"
+            android:backgroundTint="@color/rosa"
+            android:textColor="@color/gris"
+            android:textColorHint="@color/rosa"
+
+            tools:ignore="VisualLintTextFieldSize" />
+        />
+
+        <EditText
+            android:id="@+id/editNombreSucursal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="Ingresar nombre Sucursal"
+            android:inputType="textLongMessage"
+            android:minHeight="48dp"
+            android:fontFamily="@font/cascadiafont"
+            android:backgroundTint="@color/rosa"
+            android:textColor="@color/gris"
+            android:textColorHint="@color/rosa"
+            tools:ignore="HardcodedText,VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/direccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="Ingrese direccion"
+            android:inputType="textLongMessage"
+            android:minHeight="48dp"
+            android:fontFamily="@font/cascadiafont"
+            android:backgroundTint="@color/rosa"
+            android:textColor="@color/gris"
+            android:textColorHint="@color/rosa"
+            tools:ignore="VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="Ingrese Telefono"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:fontFamily="@font/cascadiafont"
+            android:backgroundTint="@color/rosa"
+            android:textColor="@color/gris"
+            android:textColorHint="@color/rosa"
+            tools:ignore="VisualLintTextFieldSize" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="169dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="18dp"
+        android:contentDescription="@string/imglogo"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/btnconsultarSucursal"
+        android:layout_width="204dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="216dp"
+        android:backgroundTint="@color/rosa"
+        android:text="@string/btnconsultar"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btneliminarSucursal"
+        android:layout_width="204dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#D14A40"
+        android:text="ELIMINAR SUCURSAL"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEditarSucursal"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnEditarSucursal"
+        android:layout_width="204dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="124dp"
+        android:backgroundTint="@color/btnInicio"
+        android:text="EDITAR SUCURSAL"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnconsultarSucursal"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/btnvolver"
+        android:layout_width="409dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="49dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/btnvolver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
